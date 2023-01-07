@@ -28,9 +28,6 @@ generateRoute.post('/command/test/review', (req, res, next) => {
   try {
     const reqData = req.body.movie;
 
-    // console.log('-----REQDATA-----');
-    // console.log(reqData);
-
     res.status(200).json({
       'message' : 'access test review endpoint.',
       'success' : true,
